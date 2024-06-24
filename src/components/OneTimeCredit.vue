@@ -2,6 +2,8 @@
 import NavigationBar from "./NavigationBar.vue"
 </script>
 
-<template><NavigationBar />></template>
+<template>
+        <NavigationBar />
+</template>
 
 <style scoped></style>
