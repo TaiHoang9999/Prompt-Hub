@@ -1,28 +1,29 @@
 <script setup></script>
 
 <template>
-        <header class="bg-white">
-                <nav
-                        class="flex justify-between items-center bg-[#F9FAFB] px-[16px] py-[14px] border-t-4 border-[#CDE200]">
-                        <div>
-                                <img class="" src="../assets/img/Logo.svg" alt="OnlyPromptsLogo" />
+        <header class="h-[56px] w-full border-t-4 border-[#CDE200]">
+                <nav class=" max-w-[1476px] w-full flex justify-between items-center mx-auto px-[16px]">
+                        <div class="h-full flex items-center">
+                                <a href=" flex items-center  h-full">
+                                        <img class="" src="../assets/img/Logo.svg" alt="OnlyPromptsLogo" />
+                                </a>
+                              
                         </div>
-                        <div class="">
-                                <ul
-                                        class="flex items-center gap-[4vw] text-[16px] text-[#161C24] font-[600] leading-[24px]">
-                                        <li>
-                                                <a href="">Why us</a>
-                                        </li>
-                                        <li>
-                                                <a href="">Our product</a>
-                                        </li>
-                                        <li>
-                                                <a href="">Blog</a>
-                                        </li>
-                                </ul>
-                        </div>
-
-                        <div class="flex justify-between items-center gap-[8px]">
+                        <ul
+                                class="menu-list flex items-center gap-[4vw] text-[16px] text-[#161C24] font-[600] leading-[24px] h-full">
+                                <li class="menu-item p-[16px] h-full">
+                                        <a class="flex items-center justify-center h-full" href="">Why us</a>
+                                </li>
+                                <li class="menu-item p-[16px] h-full">
+                                        <a class="flex items-center justify-center h-full relative product-link"
+                                                href="">Our product
+                                        </a>
+                                </li>
+                                <li class="menu-item p-[16px] h-full">
+                                        <a class="flex items-center justify-center h-full" href="">Blog</a>
+                                </li>
+                        </ul>
+                        <div class="flex justify-between items-center gap-[8px] h-full">
                                 <button
                                         class="text-[13px] leading-5 px-[4px] py-[8px] border-[1px] border-solid border-[#637381] rounded-[4px]">
                                         Explore new prompts
@@ -37,30 +38,12 @@
 </template>
 
 <style scoped>
-header {
-        height: 56px;
+nav {
+        height: calc(100% + 4px);
 }
-
-header>nav,
-header>div,
-header>ul,
-header>li {
-        height: 100%;
-}
-
-a {
-        position: relative;
-}
-
-
-a::after {
-        position: absolute;
-        content: "";
-        width: 100%;
-        height: 2px;
-        background-color: red;
-        left: 0;
-        bottom: 0;
-        transform: scaleX(1);
+.menu-item:hover
+{
+        border-bottom: 4px solid #161C24 ;
+        transition: all 0.1s ease-in-out 0s;
 }
 </style>
