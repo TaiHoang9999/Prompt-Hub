@@ -19,10 +19,14 @@
                                                 href="">Our product
                                         </a>
 
-                                        <ul class="submenu bg-red absolute top-[56px] right-[-88px] w-[150px] overflow-y-auto flex flex-col  border-[1px] border-solid border-[#637381] rounded-[8px]">
-                                                <li class="submenu-item text-[13px] text-[#637381]" ><a href="#" class =" leading-[20px]">Package of prompts</a></li>
-                                                <li class="submenu-item text-[#637381] "><a href="#"  class =" leading-[20px]">Subscription plans</a></li>
-                                                <li class="submenu-item text-[13px] text-[#161C24] "><a href="#"  class ="  leading-[20px]">One time AI credit</a></li>
+                                        <ul
+                                                class="submenu bg-red absolute top-[56px] right-[-88px] w-[150px] overflow-y-auto flex flex-col  border-[1px] border-solid border-[#637381] rounded-[8px] hidden">
+                                                <li class="submenu-item text-[13px] text-[#637381]"><a href="#"
+                                                                class=" leading-[20px]">Package of prompts</a></li>
+                                                <li class="submenu-item text-[#637381] "><a href="#"
+                                                                class=" leading-[20px]">Subscription plans</a></li>
+                                                <li class="submenu-item text-[13px] text-[#161C24] "><a href="#"
+                                                                class="  leading-[20px]">One time AI credit</a></li>
                                         </ul>
                                 </li>
                                 <li class="menu-item p-[16px] h-full">
@@ -31,12 +35,12 @@
                         </ul>
                         <div class="flex justify-between items-center gap-[8px] h-full">
                                 <button
-                                        class="text-[13px] leading-5 px-[4px] py-[8px] border-[1px] border-solid border-[#637381] rounded-[4px]">
+                                        class="text-[13px] text-[#454F5B] leading-5 px-[4px] py-[8px] border-[1px] border-solid border-[#454F5B] rounded-[4px] h-[28px] flex justify-between items-center">
                                         Explore new prompts
                                 </button>
                                 <button
-                                        class="bg-[#CDE200] text-[#161C24] text-[13px] leading-5 px-[4px] py-[8px] rounded-[4px]">
-                                        Access my prompts
+                                        class="bg-[#CDE200] text-[#161C24] text-[13px] leading-5 px-[4px] py-[8px] rounded-[4px] h-[28px] flex justify-between items-center">
+                                        Start free trials
                                 </button>
                         </div>
                 </nav>
@@ -54,22 +58,22 @@ nav {
 }
 
 
-.product-link::after{
-        content:'';
+.product-link::after {
+        content: '';
         position: absolute;
         border: solid #161C24;
         border-width: 0px 1.8px 1.8px 0;
         right: 0px;
         top: calc(50%);
         transform: translateY(-50%) rotate(45deg);
-        padding:4px;
+        padding: 4px;
 }
 
 
 .submenu-item {
         width: 100%;
         box-sizing: border-box;
-        padding:0 15px 0 15px;
+        padding: 0 15px 0 15px;
 }
 
 .submenu-item a {
