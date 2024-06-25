@@ -2,7 +2,7 @@
 
 <template>
         <header class="h-[56px] w-full border-t-4 border-[#CDE200]">
-                <nav class=" max-w-[1476px] w-full flex justify-between items-center mx-auto px-[16px]">
+                <nav class="w-full flex justify-between items-center mx-auto px-[16px]">
                         <div class="h-full flex items-center">
                                 <a href=" flex items-center  h-full">
                                         <img class="" src="../assets/img/Logo.svg" alt="OnlyPromptsLogo" />
