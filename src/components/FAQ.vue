@@ -1,16 +1,13 @@
 <script setup>
-import NavigationBar from "./NavigationBar.vue"
-import FAQ from "./FAQ.vue";
-
 </script>
 
 <template>
         <NavigationBar />
 
-        <section>
+        <section class="pt-[120px]">
                 <div class="max-w-[1160px] mx-auto flex justify-between items-center flex-col mt-[40px]">
                         <h1 class="text-[#161C24] text-[64px] font-[700] leading-[80px]">
-                                One time credit
+                                Frequently Asked Questions
                         </h1>
                         <p class="text-[14px] leading - [20px] text-[#212B36] pt-[8px]">
                                 Top up your account with additional AI credits and keep your tasks
@@ -57,7 +54,6 @@ import FAQ from "./FAQ.vue";
                                                 </button>
                                         </div>
                                 </div>
-
                         </div>
 
                         <div class="flex justify-center items-center flex-col hehe">
@@ -82,27 +78,6 @@ import FAQ from "./FAQ.vue";
                 </div>
         </section>
 
-        <FAQ />
-
-
-
-        <div class="flex justify-center my-[100px]">
-                <div class="relative w-[400px] bg-[#e3edf7] shadow-[6px_6px_10px_-1px_rgba(0,0,0.15)]">
-                        <input type="checkbox" id="input" class="absolute peer opacity-0">
-                        <label for="input"
-                                class="font-bold tracking-[1px] mx-[20px] h-[50px] flex items-center">Products</label>
-                        <div class="absolute top-[15px] right-[30px] rolate-0 peer-checked:rolate-180">
-                                <ion-icon name="arrow-down-outline"></ion-icon>
-                        </div>
-                        <div class="max-h-0 overflow-hidden peer-checked:max-h-full">
-                                <p class="text-sm p-[20px]">
-                                        Tailwind CSS is a utility-first CSS framework that streamlines web development
-                                        by
-                                        providing a set of pre-designed utility classes.7 thg 6, 2024
-                                </p>
-                        </div>
-                </div>
-        </div>
 
 </template>
 
