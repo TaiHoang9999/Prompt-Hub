@@ -4,7 +4,7 @@
         <header class="h-[56px] w-full border-t-4 border-[#CDE200]">
                 <nav class="w-full flex justify-between items-center mx-auto px-[16px]">
                         <div class="h-full flex items-center">
-                                <a href=" flex items-center  h-full">
+                                <a href=" flex items-center  h-full shrink">
                                         <img class="" src="../assets/img/Logo.svg" alt="OnlyPromptsLogo" />
                                 </a>
 
@@ -47,7 +47,7 @@
         </header>
 </template>
 
-<style scoped>
+<style>
 nav {
         height: calc(100% + 4px);
 }

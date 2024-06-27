@@ -21,7 +21,7 @@ import FAQ from "./FAQ.vue";
                 <div class="max-w-[1160px] mx-auto flex justify-center items-center gap-5 mt-[40px] total">
                         <div class="flex justify-center items-center flex-col hehe">
                                 <div
-                                        class="flex justify-between items-center flex-col w-full h-[120px] p-[16px] pricing">
+                                        class="flex justify-between items-center flex-col w-full h-[120px] p-[16px] border-solid border-2 border-[#161c24] rounded hover:shadow-[3.3px_6px_0px_0px_#000000]">
                                         <span
                                                 class="text-[#454F5B] text-[16px] leading-[24px] font-[600] self-start w-full">1000
                                                 credits</span>
@@ -41,15 +41,15 @@ import FAQ from "./FAQ.vue";
 
                         <div class="flex justify-center items-center flex-col hehe">
                                 <div
-                                        class="flex justify-between items-center flex-col w-full h-[120px] p-[16px] pricing">
+                                        class="flex justify-between items-center flex-col w-full h-[120px] p-[16px] border-solid border-2 border-[#161c24] rounded hover:shadow-[3.3px_6px_0px_0px_#000000]">
                                         <span
-                                                class="text-[#454F5B] text-[16px] leading-[24px] font-[600] self-start w-full">1000
+                                                class="text-[#454F5B] text-[16px] leading-[24px] font-[600] self-start w-full">5000
                                                 credits</span>
                                         <div class="flex justify-between items-center self-start w-full">
                                                 <div class="flex items-center">
                                                         <span class="self-start font-[700]">$</span>
                                                         <span
-                                                                class="text-[#161C24] text-[40px] font-[700] leading-[0.9]">5</span>
+                                                                class="text-[#161C24] text-[40px] font-[700] leading-[0.9]">21</span>
                                                 </div>
                                                 <button
                                                         class="text-[#C4CDD5] text-[16px] leading-[24px] font-[600] bg-[#F4F6F8] py-[16px] px-[24px]">
@@ -62,15 +62,15 @@ import FAQ from "./FAQ.vue";
 
                         <div class="flex justify-center items-center flex-col hehe">
                                 <div
-                                        class="flex justify-between items-center flex-col w-full h-[120px] p-[16px] pricing">
+                                        class="flex justify-between items-center flex-col w-full h-[120px] p-[16px] border-solid border-2 border-[#161c24] rounded hover:shadow-[3.3px_6px_0px_0px_#000000]">
                                         <span
-                                                class="text-[#454F5B] text-[16px] leading-[24px] font-[600] self-start w-full">1000
+                                                class="text-[#454F5B] text-[16px] leading-[24px] font-[600] self-start w-full">10,000
                                                 credits</span>
                                         <div class="flex justify-between items-center self-start w-full">
                                                 <div class="flex items-center">
                                                         <span class="self-start font-[700]">$</span>
                                                         <span
-                                                                class="text-[#161C24] text-[40px] font-[700] leading-[0.9]">5s</span>
+                                                                class="text-[#161C24] text-[40px] font-[700] leading-[0.9]">39</span>
                                                 </div>
                                                 <button
                                                         class="text-[#C4CDD5] text-[16px] leading-[24px] font-[600] bg-[#F4F6F8] py-[16px] px-[24px]">
@@ -86,38 +86,11 @@ import FAQ from "./FAQ.vue";
 
 
 
-        <div class="flex justify-center my-[100px]">
-                <div class="relative w-[400px] bg-[#e3edf7] shadow-[6px_6px_10px_-1px_rgba(0,0,0.15)]">
-                        <input type="checkbox" id="input" class="absolute peer opacity-0">
-                        <label for="input"
-                                class="font-bold tracking-[1px] mx-[20px] h-[50px] flex items-center">Products</label>
-                        <div class="absolute top-[15px] right-[30px] rolate-0 peer-checked:rolate-180">
-                                <ion-icon name="arrow-down-outline"></ion-icon>
-                        </div>
-                        <div class="max-h-0 overflow-hidden peer-checked:max-h-full">
-                                <p class="text-sm p-[20px]">
-                                        Tailwind CSS is a utility-first CSS framework that streamlines web development
-                                        by
-                                        providing a set of pre-designed utility classes.7 thg 6, 2024
-                                </p>
-                        </div>
-                </div>
-        </div>
-
 </template>
 
 <style scoped>
 .hehe {
         width: calc(33.33% - 20px);
         margin-left: 20px;
-}
-
-.pricing {
-        border: 2px solid #161c24;
-        border-radius: 4px;
-}
-
-.pricing:hover {
-        box-shadow: 5px 8px 0px 0px #000000;
 }
 </style>
