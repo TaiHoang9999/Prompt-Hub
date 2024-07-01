@@ -19,7 +19,7 @@ import FAQ from "./FAQ.vue";
                 </div>
 
                 <div class="max-w-[1160px] mx-auto flex justify-center items-center gap-5 mt-[40px] total">
-                        <div class="flex justify-center items-center flex-col hehe">
+                        <div class="flex justify-center items-center flex-col flex-1">
                                 <div
                                         class="flex justify-between items-center flex-col w-full h-[120px] p-[16px] border-solid border-2 border-[#161c24] rounded hover:shadow-[3.3px_6px_0px_0px_#000000]">
                                         <span
@@ -39,7 +39,7 @@ import FAQ from "./FAQ.vue";
                                 </div>
                         </div>
 
-                        <div class="flex justify-center items-center flex-col hehe">
+                        <div class="flex justify-center items-center flex-col flex-1">
                                 <div
                                         class="flex justify-between items-center flex-col w-full h-[120px] p-[16px] border-solid border-2 border-[#161c24] rounded hover:shadow-[3.3px_6px_0px_0px_#000000]">
                                         <span
@@ -60,7 +60,7 @@ import FAQ from "./FAQ.vue";
 
                         </div>
 
-                        <div class="flex justify-center items-center flex-col hehe">
+                        <div class="flex justify-center items-center flex-col flex-1">
                                 <div
                                         class="flex justify-between items-center flex-col w-full h-[120px] p-[16px] border-solid border-2 border-[#161c24] rounded hover:shadow-[3.3px_6px_0px_0px_#000000]">
                                         <span
@@ -88,9 +88,4 @@ import FAQ from "./FAQ.vue";
 
 </template>
 
-<style scoped>
-.hehe {
-        width: calc(33.33% - 20px);
-        margin-left: 20px;
-}
-</style>
+<style scoped></style>
