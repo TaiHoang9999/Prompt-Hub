@@ -1,6 +1,7 @@
 <script setup>
 import NavigationBar from "./NavigationBar.vue"
 import FAQ from "./FAQ.vue";
+import Footer from "./FooterComponent.vue"
 
 </script>
 
@@ -83,6 +84,7 @@ import FAQ from "./FAQ.vue";
         </section>
 
         <FAQ />
+        <Footer />
 
 
 

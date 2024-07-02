@@ -52,6 +52,9 @@ nav {
         height: calc(100% + 4px);
 }
 
+
+
+
 .menu-item:hover {
         border-bottom: 4px solid #161C24;
         transition: all 0.1s ease-in-out 0s;
