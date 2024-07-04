@@ -1,11 +1,8 @@
-<script setup>
-
-</script>
+<script setup></script>
 
 <template>
-
-        <!-- Section 3 -->
-        <footer class="w-full bg-cyan-500 mt-20">
+        <!-- Cách cũ -->
+        <!-- <footer class="w-full bg-cyan-500 mt-20">
 
                 <div class="px-8 py-12 mx-auto max-w-7xl">
                         <div class="grid grid-cols-2 gap-10 mb-3 md:grid-cols-3 lg:grid-cols-12 lg:gap-20">
@@ -88,10 +85,70 @@
                                 </div>
                         </div>
                 </div>
+        </footer> -->
+
+        <footer class="">
+                <div class="w-[1160px] pt-[80px] mx-auto flex justify-between">
+                        <div class="flex flex-col gap-[15px] justify-center">
+                                <a href="" class="">
+                                        <img src="../assets/img/Logo.svg" alt="" />
+                                </a>
+                                <div class="flex gap-[10px]">
+                                        <img src="../assets/img/home.svg" alt="" />
+                                        <span>1 North Bridge Road, Singapore 179094</span>
+                                </div>
+                                <div class="flex gap-[10px]">
+                                        <img src="../assets/img/mail.svg" alt="" />
+                                        <span>hello@onlyprompts.net</span>
+                                </div>
+                        </div>
+                        <div class="flex flex gap-8 justify-center">
+                                <ul>
+                                        <li class="font-bold pb-5 text-[#161C24]">Product</li>
+                                        <li class="pb-2">
+                                                <a href="" class="">Why us</a>
+                                        </li>
+                                        <li class="pb-2">
+                                                <a href="" class="">Prompt Packs</a>
+                                        </li>
+                                        <li class="pb-2">
+                                                <a href="" class="">Roadmap</a>
+                                        </li>
+                                </ul>
+
+                                <ul>
+                                        <li class="font-bold pb-5 text-[#161C24]">Support</li>
+                                        <li class="pb-2">
+                                                <a href="" class="">Help Center</a>
+                                        </li>
+                                </ul>
+
+                                <ul>
+                                        <li class="font-bold pb-5 text-[#161C24]">Legal</li>
+                                        <li class="pb-2">
+                                                <a href="" class="">Terms of Use</a>
+                                        </li>
+                                        <li class="pb-2">
+                                                <a href="" class="">Cooies Policy</a>
+                                        </li>
+                                </ul>
+
+                                <ul>
+                                        <li class="font-bold pb-5 text-[#161C24]">Community</li>
+                                        <li class="pb-2">
+                                                <a href="" class="">Terms of Use</a>
+                                        </li>
+                                        <li class="pb-2">
+                                                <a href="" class="">Cooies Policy</a>
+                                        </li>
+                                </ul>
+                        </div>
+                </div>
+
+                <div class="w-[1160px] mt-20 mx-auto flex justify-between border-t-2 border-[#919EAB] opacity-15">
+                        <span class="text-xs text-[#637381] font-normal pt-8">© onlyprompts.net</span>
+                </div>
         </footer>
-
 </template>
-
-
 
 <style scoped></style>
