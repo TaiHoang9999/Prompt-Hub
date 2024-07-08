@@ -89,65 +89,76 @@
 
         <footer class="">
                 <div class="w-[1160px] pt-[80px] mx-auto flex justify-between">
-                        <div class="flex flex-col gap-[15px] justify-center">
+                        <div class="flex flex-col gap-[15px] ">
                                 <a href="" class="">
                                         <img src="../assets/img/Logo.svg" alt="" />
                                 </a>
-                                <div class="flex gap-[10px]">
-                                        <img src="../assets/img/home.svg" alt="" />
+                                <div class="flex gap-[10px] items-center">
+                                        <img src="../assets/img/home.svg" alt="" class="w-[18px] h-[20px]" />
                                         <span>1 North Bridge Road, Singapore 179094</span>
                                 </div>
                                 <div class="flex gap-[10px]">
-                                        <img src="../assets/img/mail.svg" alt="" />
+                                        <img src="../assets/img/mail.svg" alt="" class="w-[18px] h-[20px]" />
                                         <span>hello@onlyprompts.net</span>
                                 </div>
                         </div>
-                        <div class="flex flex gap-8 justify-center">
+                        <div class="flex  gap-8 justify-center">
                                 <ul>
                                         <li class="font-bold pb-5 text-[#161C24]">Product</li>
                                         <li class="pb-2">
-                                                <a href="" class="">Why us</a>
+                                                <a href="" class="text-[#454F5B]">Why us</a>
                                         </li>
                                         <li class="pb-2">
-                                                <a href="" class="">Prompt Packs</a>
+                                                <a href="" class="text-[#454F5B]">Prompt Packs</a>
                                         </li>
-                                        <li class="pb-2">
-                                                <a href="" class="">Roadmap</a>
-                                        </li>
-                                </ul>
-
-                                <ul>
-                                        <li class="font-bold pb-5 text-[#161C24]">Support</li>
-                                        <li class="pb-2">
-                                                <a href="" class="">Help Center</a>
+                                        <li class=" pb-2">
+                                                <a href="" class="text-[#454F5B]">Roadmap</a>
                                         </li>
                                 </ul>
 
                                 <ul>
-                                        <li class="font-bold pb-5 text-[#161C24]">Legal</li>
-                                        <li class="pb-2">
-                                                <a href="" class="">Terms of Use</a>
+                                        <li class=" font-bold pb-5 text-[#161C24]">Support
                                         </li>
                                         <li class="pb-2">
-                                                <a href="" class="">Cooies Policy</a>
+                                                <a href="" class="text-[#454F5B]">Help Center</a>
                                         </li>
                                 </ul>
 
                                 <ul>
-                                        <li class="font-bold pb-5 text-[#161C24]">Community</li>
-                                        <li class="pb-2">
-                                                <a href="" class="">Terms of Use</a>
+                                        <li class=" font-bold pb-5 text-[#161C24]">Legal
                                         </li>
                                         <li class="pb-2">
-                                                <a href="" class="">Cooies Policy</a>
+                                                <a href="" class="text-[#454F5B]">Terms of Use</a>
+                                        </li>
+                                        <li class=" pb-2">
+                                                <a href="" class="text-[#454F5B]">Cooies Policy</a>
+                                        </li>
+                                </ul>
+
+                                <ul>
+                                        <li class=" font-bold pb-5 text-[#161C24]">Community
+                                        </li>
+                                        <li class="pb-2">
+                                                <a href="" class="text-[#454F5B]">Terms of Use</a>
+                                        </li>
+                                        <li class=" pb-2">
+                                                <a href="" class="text-[#454F5B]">Cooies Policy</a>
                                         </li>
                                 </ul>
                         </div>
                 </div>
 
-                <div class="w-[1160px] mt-20 mx-auto flex justify-between border-t-2 border-[#919EAB] opacity-15">
-                        <span class="text-xs text-[#637381] font-normal pt-8">© onlyprompts.net</span>
+                <div class=" w-[1160px] mt-20 mx-auto flex justify-between border-t-2 border-[#919EAB] opacity-15">
+                        <span class="text-xs text-[#637381] font-normal pt-8">©
+                                onlyprompts.net</span>
                 </div>
+
+
+
+
+
+
+
         </footer>
 </template>
 
